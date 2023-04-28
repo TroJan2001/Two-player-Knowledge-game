@@ -6,4 +6,4 @@ Step 3: Move the file named "PWRRAILS.DAT" into "SCRIPTS" folder
 Step 4: Move all files that their names start with "Embedded_project_DONE" to to "Project Backups" 
 NOTE: DON'T move the file that its name is "Embedded_project_DONE" just move all others that starts with this name but has some other letters after.
 For example move this file named "Embedded_project_DONE [20230107, 22-08-49]"
-Finally please read the project pdf file to understand the Action needed to work properly.
+Finally please read the project pdf file to understand the prpject and get it to work properly.
