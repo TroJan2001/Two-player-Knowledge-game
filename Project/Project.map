@@ -1,0 +1,154 @@
+MPLINK 4.37, Linker
+Linker Map File - Created Sun Jan 08 10:50:35 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x000512
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x00028c      
+            650 out of 8453 program addresses used, program memory utilization is 7%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    ADDP1   0x000262    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    ADDP2   0x000268    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  B1CHECK   0x0000d0    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  B2CHECK   0x0000d3    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    BONUS   0x000155    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   BONUSV   0x000251    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    CHECK   0x000203    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   CHECK1   0x000208    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   CHECK2   0x00020b    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  COUNTER   0x0001bc    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    DELAY   0x000186    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  DISPLAY   0x0001d1    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    DONE1   0x00007f    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   DONE11   0x0000a1    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    DONE2   0x00007d    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   DONE22   0x00009f    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                 DONEHERE   0x0001c9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                     DRAW   0x000244    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    FINAL   0x00028d    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH0   0x0000df    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH1   0x0000dc    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH2   0x0000d9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH3   0x0000d6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH4   0x0000cd    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                 FINISHED   0x0000e6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   GOWAIT   0x0000ab    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  INITIAL   0x00000c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  INT_SVC   0x000004    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    LOOP1   0x0001bf    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                     Main   0x00004e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       P1   0x0001b6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       P2   0x0001b9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+              PLAYER1WINS   0x00020e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+              PLAYER2WINS   0x000229    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  Player1   0x000061    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  Player2   0x000083    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q0   0x0000e7    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q0SELECTED   0x0001a0    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q1   0x000102    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q1SELECTED   0x0001a5    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q2   0x00011f    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q2SELECTED   0x0001a9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q3   0x00013a    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q3SELECTED   0x0001ae    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q4SELECTED   0x0001b2    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    RIGHT   0x000080    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   RIGHT2   0x0000a2    program     static C:\Users\TP1\Downloads\Project\Project.asm
+          SELECTDIFFERENT   0x00026e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+         SELECT_QUESTIONS   0x0000a5    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                SUBMITTED   0x00006c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               SUBMITTED2   0x00008e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    TABLE   0x0001d6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   TABLE2   0x00018e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   TESTED   0x0000e2    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                     WAIT   0x000050    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    WRONG   0x000082    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   WRONG2   0x0000a4    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   endLcd   0x00018c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    loop2   0x000189    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                send_char   0x000172    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                 send_cmd   0x00017c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  INT_SVC   0x000004    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  INITIAL   0x00000c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                     Main   0x00004e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                     WAIT   0x000050    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  Player1   0x000061    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                SUBMITTED   0x00006c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    DONE2   0x00007d    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    DONE1   0x00007f    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    RIGHT   0x000080    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    WRONG   0x000082    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  Player2   0x000083    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               SUBMITTED2   0x00008e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   DONE22   0x00009f    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   DONE11   0x0000a1    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   RIGHT2   0x0000a2    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   WRONG2   0x0000a4    program     static C:\Users\TP1\Downloads\Project\Project.asm
+         SELECT_QUESTIONS   0x0000a5    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   GOWAIT   0x0000ab    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH4   0x0000cd    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  B1CHECK   0x0000d0    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  B2CHECK   0x0000d3    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH3   0x0000d6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH2   0x0000d9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH1   0x0000dc    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  FINISH0   0x0000df    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   TESTED   0x0000e2    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                 FINISHED   0x0000e6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q0   0x0000e7    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q1   0x000102    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q2   0x00011f    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       Q3   0x00013a    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    BONUS   0x000155    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                send_char   0x000172    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                 send_cmd   0x00017c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    DELAY   0x000186    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    loop2   0x000189    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   endLcd   0x00018c    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   TABLE2   0x00018e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q0SELECTED   0x0001a0    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q1SELECTED   0x0001a5    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q2SELECTED   0x0001a9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q3SELECTED   0x0001ae    program     static C:\Users\TP1\Downloads\Project\Project.asm
+               Q4SELECTED   0x0001b2    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       P1   0x0001b6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                       P2   0x0001b9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  COUNTER   0x0001bc    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    LOOP1   0x0001bf    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                 DONEHERE   0x0001c9    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                  DISPLAY   0x0001d1    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    TABLE   0x0001d6    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    CHECK   0x000203    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   CHECK1   0x000208    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   CHECK2   0x00020b    program     static C:\Users\TP1\Downloads\Project\Project.asm
+              PLAYER1WINS   0x00020e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+              PLAYER2WINS   0x000229    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                     DRAW   0x000244    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                   BONUSV   0x000251    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    ADDP1   0x000262    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    ADDP2   0x000268    program     static C:\Users\TP1\Downloads\Project\Project.asm
+          SELECTDIFFERENT   0x00026e    program     static C:\Users\TP1\Downloads\Project\Project.asm
+                    FINAL   0x00028d    program     static C:\Users\TP1\Downloads\Project\Project.asm
+
+
